@@ -5,7 +5,7 @@ main.exe:
 
 .PHONY: run
 run: main.exe
-  @./main.exe
+	@./main.exe
 
 .PHONY: clean
 clean:
