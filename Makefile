@@ -2,6 +2,7 @@ all: main.exe
 
 main.exe:
 	g++ -std=c++11 main.cc -o main.exe
+	chmod +x main.exe
 
 .PHONY: run
 run: main.exe
